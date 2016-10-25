@@ -7,27 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E16D1771DBF356F00A4C0C2 /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E16D1761DBF356F00A4C0C2 /* libcurl.a */; };
+		0E16D17A1DBF35A300A4C0C2 /* ots_httpdownload.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E16D1781DBF35A300A4C0C2 /* ots_httpdownload.c */; };
+		0E16D1C51DBF64CB00A4C0C2 /* curl.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 0E16D16C1DBF356F00A4C0C2 /* curl.h */; };
+		0E16D1C61DBF64CB00A4C0C2 /* curlbuild.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 0E16D16D1DBF356F00A4C0C2 /* curlbuild.h */; };
+		0E16D1C71DBF64CB00A4C0C2 /* curlrules.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 0E16D16E1DBF356F00A4C0C2 /* curlrules.h */; };
+		0E16D1C81DBF64CB00A4C0C2 /* curlver.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 0E16D16F1DBF356F00A4C0C2 /* curlver.h */; };
+		0E16D1C91DBF64CB00A4C0C2 /* easy.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 0E16D1701DBF356F00A4C0C2 /* easy.h */; };
+		0E16D1CA1DBF64CB00A4C0C2 /* mprintf.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 0E16D1711DBF356F00A4C0C2 /* mprintf.h */; };
+		0E16D1CB1DBF64CB00A4C0C2 /* multi.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 0E16D1721DBF356F00A4C0C2 /* multi.h */; };
+		0E16D1CC1DBF64CB00A4C0C2 /* stdcheaders.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 0E16D1731DBF356F00A4C0C2 /* stdcheaders.h */; };
+		0E16D1CD1DBF64CB00A4C0C2 /* typecheck-gcc.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 0E16D1741DBF356F00A4C0C2 /* typecheck-gcc.h */; };
 		0E82A4371DAF7ED800F13D4E /* CStaticTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E82A4361DAF7ED800F13D4E /* CStaticTest.m */; };
-		0E82A4381DAF7ED800F13D4E /* CStaticTest.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0E82A4351DAF7ED800F13D4E /* CStaticTest.h */; };
+		0E82A4381DAF7ED800F13D4E /* CStaticTest.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 0E82A4351DAF7ED800F13D4E /* CStaticTest.h */; };
+		0E82A4401DAF7F0E00F13D4E /* hello.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E82A43E1DAF7F0E00F13D4E /* hello.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		0E82A4301DAF7ED800F13D4E /* CopyFiles */ = {
+		0E82A4301DAF7ED800F13D4E /* Copy Files */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				0E82A4381DAF7ED800F13D4E /* CStaticTest.h in CopyFiles */,
+				0E16D1C51DBF64CB00A4C0C2 /* curl.h in Copy Files */,
+				0E16D1C61DBF64CB00A4C0C2 /* curlbuild.h in Copy Files */,
+				0E16D1C71DBF64CB00A4C0C2 /* curlrules.h in Copy Files */,
+				0E16D1C81DBF64CB00A4C0C2 /* curlver.h in Copy Files */,
+				0E16D1C91DBF64CB00A4C0C2 /* easy.h in Copy Files */,
+				0E16D1CA1DBF64CB00A4C0C2 /* mprintf.h in Copy Files */,
+				0E16D1CB1DBF64CB00A4C0C2 /* multi.h in Copy Files */,
+				0E16D1CC1DBF64CB00A4C0C2 /* stdcheaders.h in Copy Files */,
+				0E16D1CD1DBF64CB00A4C0C2 /* typecheck-gcc.h in Copy Files */,
+				0E82A4381DAF7ED800F13D4E /* CStaticTest.h in Copy Files */,
 			);
+			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0E16D16C1DBF356F00A4C0C2 /* curl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curl.h; sourceTree = "<group>"; };
+		0E16D16D1DBF356F00A4C0C2 /* curlbuild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curlbuild.h; sourceTree = "<group>"; };
+		0E16D16E1DBF356F00A4C0C2 /* curlrules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curlrules.h; sourceTree = "<group>"; };
+		0E16D16F1DBF356F00A4C0C2 /* curlver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curlver.h; sourceTree = "<group>"; };
+		0E16D1701DBF356F00A4C0C2 /* easy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = easy.h; sourceTree = "<group>"; };
+		0E16D1711DBF356F00A4C0C2 /* mprintf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mprintf.h; sourceTree = "<group>"; };
+		0E16D1721DBF356F00A4C0C2 /* multi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = multi.h; sourceTree = "<group>"; };
+		0E16D1731DBF356F00A4C0C2 /* stdcheaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdcheaders.h; sourceTree = "<group>"; };
+		0E16D1741DBF356F00A4C0C2 /* typecheck-gcc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "typecheck-gcc.h"; sourceTree = "<group>"; };
+		0E16D1761DBF356F00A4C0C2 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcurl.a; sourceTree = "<group>"; };
+		0E16D1781DBF35A300A4C0C2 /* ots_httpdownload.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ots_httpdownload.c; sourceTree = "<group>"; };
+		0E16D1791DBF35A300A4C0C2 /* ots_httpdownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ots_httpdownload.h; sourceTree = "<group>"; };
 		0E82A4321DAF7ED800F13D4E /* libCStaticTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCStaticTest.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E82A4351DAF7ED800F13D4E /* CStaticTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CStaticTest.h; sourceTree = "<group>"; };
 		0E82A4361DAF7ED800F13D4E /* CStaticTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CStaticTest.m; sourceTree = "<group>"; };
+		0E82A43E1DAF7F0E00F13D4E /* hello.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hello.c; sourceTree = "<group>"; };
+		0E82A43F1DAF7F0E00F13D4E /* hello.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hello.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,12 +71,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E16D1771DBF356F00A4C0C2 /* libcurl.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E16D16A1DBF356F00A4C0C2 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				0E16D16B1DBF356F00A4C0C2 /* curl */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		0E16D16B1DBF356F00A4C0C2 /* curl */ = {
+			isa = PBXGroup;
+			children = (
+				0E16D16C1DBF356F00A4C0C2 /* curl.h */,
+				0E16D16D1DBF356F00A4C0C2 /* curlbuild.h */,
+				0E16D16E1DBF356F00A4C0C2 /* curlrules.h */,
+				0E16D16F1DBF356F00A4C0C2 /* curlver.h */,
+				0E16D1701DBF356F00A4C0C2 /* easy.h */,
+				0E16D1711DBF356F00A4C0C2 /* mprintf.h */,
+				0E16D1721DBF356F00A4C0C2 /* multi.h */,
+				0E16D1731DBF356F00A4C0C2 /* stdcheaders.h */,
+				0E16D1741DBF356F00A4C0C2 /* typecheck-gcc.h */,
+			);
+			path = curl;
+			sourceTree = "<group>";
+		};
+		0E16D1751DBF356F00A4C0C2 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				0E16D1761DBF356F00A4C0C2 /* libcurl.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
 		0E82A4291DAF7ED800F13D4E = {
 			isa = PBXGroup;
 			children = (
@@ -60,8 +129,14 @@
 		0E82A4341DAF7ED800F13D4E /* CStaticTest */ = {
 			isa = PBXGroup;
 			children = (
+				0E16D16A1DBF356F00A4C0C2 /* include */,
+				0E16D1751DBF356F00A4C0C2 /* lib */,
 				0E82A4351DAF7ED800F13D4E /* CStaticTest.h */,
 				0E82A4361DAF7ED800F13D4E /* CStaticTest.m */,
+				0E16D1781DBF35A300A4C0C2 /* ots_httpdownload.c */,
+				0E16D1791DBF35A300A4C0C2 /* ots_httpdownload.h */,
+				0E82A43E1DAF7F0E00F13D4E /* hello.c */,
+				0E82A43F1DAF7F0E00F13D4E /* hello.h */,
 			);
 			path = CStaticTest;
 			sourceTree = "<group>";
@@ -75,7 +150,7 @@
 			buildPhases = (
 				0E82A42E1DAF7ED800F13D4E /* Sources */,
 				0E82A42F1DAF7ED800F13D4E /* Frameworks */,
-				0E82A4301DAF7ED800F13D4E /* CopyFiles */,
+				0E82A4301DAF7ED800F13D4E /* Copy Files */,
 			);
 			buildRules = (
 			);
@@ -124,7 +199,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E82A4401DAF7F0E00F13D4E /* hello.c in Sources */,
 				0E82A4371DAF7ED800F13D4E /* CStaticTest.m in Sources */,
+				0E16D17A1DBF35A300A4C0C2 /* ots_httpdownload.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,9 +248,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -212,7 +289,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -223,6 +300,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 9R74JVS7P9;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CStaticTest",
+					"$(PROJECT_DIR)/CStaticTest/lib",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -233,6 +315,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 9R74JVS7P9;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CStaticTest",
+					"$(PROJECT_DIR)/CStaticTest/lib",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -258,6 +345,7 @@
 				0E82A43D1DAF7ED800F13D4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
