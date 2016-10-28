@@ -14,7 +14,7 @@
 
 - (void)downloadFileWithFilePath:(NSString *)filePath logPath:(NSString *)logPath{
 //    char argv[8][] = {{10},{5},{"http://curl.haxx.se/download/curl-7.47.1.tar.gz"},{"/root/test.file"},{"/root/httpdownloadlog"},{1},{1},{3}};
-    NSString *path = @"http://curl.haxx.se/download/curl-7.47.1.tar.gz";
+    NSString *path = @"http://photo.enterdesk.com/2010-10-24/enterdesk.com-3B11711A460036C51C19F87E7064FE9D.jpg";
     struct ots_httpdownload_para *httpdownload=ots_httpdownload_init();
     char url[256];
     char downloadpath[256];
@@ -25,8 +25,8 @@
 //    snprintf(downloadpath,sizeof(downloadpath),argv[4]);
     snprintf(downloadpath,sizeof(downloadpath),"%s", [filePath cStringUsingEncoding:NSUTF8StringEncoding]);
     httpdownload->url=url;
-    httpdownload->connecttimeout=5;
-    httpdownload->timeout=10;
+    httpdownload->connecttimeout=10;
+    httpdownload->timeout=180;
     httpdownload->is_write_log=1;
     httpdownload->is_write_file=1;
     httpdownload->downloadfile_path=downloadpath;
